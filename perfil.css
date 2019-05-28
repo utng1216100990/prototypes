@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+	padding: 40px;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.36);
+}
+
+.img {
+    margin: 50px 300px 0px 268px;
+    background-color: aqua;
+    width: 170px;
+    height: 170px;
+    background: url(img/stevejobs.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+
+.button {
+    position: absolute;
+    top: 84%;
+    left: 18%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-black {
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+}
+
+.button2 {
+    position: absolute;
+    top: 13%;
+    left: 34%;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: gray;
+}
